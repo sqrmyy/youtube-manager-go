@@ -1,13 +1,15 @@
-module server.go
+module youtube-manager-go
 
 go 1.16
 
 require (
+	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasthttp v0.0.0-20171207120941-e5f51c11919d
 	github.com/valyala/fasttemplate v1.2.1 // indirect
 	golang.org/x/crypto v0.0.0-20211202192323-5770296d904e // indirect
 	golang.org/x/net v0.0.0-20211203184738-4852103109b8 // indirect

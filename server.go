@@ -1,8 +1,9 @@
 package main
 
 import (
+	"youtube-manager-go/routes"
+
 	"github.com/labstack/echo"
-	"github.com/sqrmyy/youtube-manager-go/routes"
 )
 
 func main() {
